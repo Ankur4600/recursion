@@ -3,8 +3,9 @@ package recursion;
 import java.util.Scanner;
 
 public class reverseOf_array {
-    static int i=0;
+    // static int i=0;
     static void reverse(int[] array,int n){
+         int i=0;
         if(i>=n/2) return ;
         //swaping the number
         int tmp=array[i];
